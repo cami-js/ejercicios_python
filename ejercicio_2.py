@@ -32,7 +32,5 @@ for i in range(n - 1):
 numero_faltante = missing_number(n, l) 
 print("El número faltante es: {}".format(numero_faltante)) 
 
-#Se realiza una aserción para verificar si el número faltante calculado para el caso de prueba coincide con el valor esperado. Si esta falla, se imprime un mensaje de error
-#Si no falla, se imprime un mensaje indicando que los casos de prueba han pasado correctamente
 assert missing_number(5, [1, 2, 4, 5]) == 3, "Error en el caso de prueba"
 print("Todos los casos de prueba han pasado correctamente")

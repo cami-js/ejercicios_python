@@ -24,8 +24,6 @@ def secuencia(n):
     return secuencia_valores
 
 
-#Se realiza una aserción para verificar si la secuencia generada para el caso de prueba coincide con lo que se espera. Si esta falla, se imprime un mensaje de error
-#Si no falla, se imprime un mensaje indicando que los casos de prueba han pasado correctamente
 assert secuencia(3) == [3, 10, 5, 16, 8, 4, 2, 1], "Error en el caso de prueba"  
 assert secuencia(0) == None, "Error en el caso de prueba"
 assert secuencia(1000000) == None, "Error en el caso de prueba"
